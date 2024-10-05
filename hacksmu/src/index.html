@@ -15,13 +15,13 @@
 }
 
 button {
-    background-color: rgb(3,181, 170);
-    border-color: rgb(2, 52, 54);
+    background-color: rgb(186,55,25);
+    border-color: rgb(97, 37, 22);
     border-radius: 16px;
     border-style: solid;
     margin: 5px;
-    color: rgb(270, 270, 270);
-    font-family: sans-serif;
+    color: rgb(236, 226, 208);
+    font-family: Arial;
     height: 32px;
 }
 
@@ -31,17 +31,19 @@ button:disabled {
 }
 
 button:not([disabled]):hover {
-    background-color: rgb(3,121,113);
+    background-color: rgb(230, 104, 69);
     cursor: pointer;
 }
 
 button:not([disabled]):active {
-    background-color: rgb(246,174,45);
+    background-color: rgb(247, 139, 103);
+    border-color: rgb(186,55,25);
+    color: rgb(97, 37, 22);
     cursor: pointer;
 }
 
 h1 {
-    color: rgb(2, 52, 54);
+    color: rgb(57, 37, 22);
     text-align: center;
 }
 
@@ -52,11 +54,9 @@ h1 {
             You may use "addOnUISdk.app.ui.theme" to get the current theme and style accordingly.
         -->
         <div class="container">
-            <h1>ReFormatter</h1>
-            <button id="clickMe">Basic</button>
-            <button id="ProButton">Professional</button>
-            <button id="BoldButton">Bold</button>
-            <button style="margin:20px 5px 5px 5px; background-color:rgb(2, 52, 54);" id="RevertButton">Revert </button>
+            <h1>Adobe Express to PowerPoint</h1>
+            <button id="Export">Export</button>
+           
         </div>
         <script type="module" src="index.js"></script>
     </body>
