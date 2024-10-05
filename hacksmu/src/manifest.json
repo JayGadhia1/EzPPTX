@@ -1,0 +1,21 @@
+{
+    "testId": "d51280ca-e1f5-4c65-8a89-867a2f8ca713",
+    "name": "Hacksmu",
+    "version": "1.0.0",
+    "manifestVersion": 2,
+    "requirements": {
+        "apps": [
+            {
+                "name": "Express",
+                "apiVersion": 1
+            }
+        ]
+    },
+    "entryPoints": [
+        {
+            "type": "panel",
+            "id": "panel1",
+            "main": "index.html"
+        }
+    ]
+}
