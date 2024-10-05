@@ -8,6 +8,19 @@ addOnUISdk.ready.then(() => {
         clickMeButton.innerHTML = "Clicked";
     });
 
+    const ProfessButton = document.getElementById("ProButton");
+    clickMeButton.addEventListener("click", () => {
+        clickMeButton.innerHTML = "Clicked";
+    });
+    const BoldButton = document.getElementById("BoldButton");
+    clickMeButton.addEventListener("click", () => {
+        clickMeButton.innerHTML = "Clicked";
+    });
+    const reverter = document.getElementById("RevertButton");
+    clickMeButton.addEventListener("click", () => {
+        clickMeButton.innerHTML = "Clicked";
+    });
+
     // Enable the button only when:
     // 1. `addOnUISdk` is ready, and
     // 2. `click` event listener is registered.
