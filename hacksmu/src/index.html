@@ -6,41 +6,57 @@
         <meta name="keywords" content="Adobe, Express, Add-On, JavaScript" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Get Started</title>
-        <style>
-            .container {
-                margin: 24px;
-                display: flex;
-                flex-direction: column;
-            }
-
-            button {
-                background-color: rgb(82, 88, 228);
-                border-color: rgb(82, 88, 228);
-                border-radius: 16px;
-                border-style: solid;
-                color: rgb(255, 255, 255);
-                font-family: sans-serif;
-                height: 32px;
-            }
-
-            button:disabled {
-                background-color: rgb(177, 177, 177);
-                border-color: rgb(177, 177, 177);
-            }
-
-            button:not([disabled]):hover {
-                background-color: rgb(64, 70, 202);
-                cursor: pointer;
-            }
-        </style>
     </head>
+    <style> 
+    .container {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(3,181, 170);
+    border-color: rgb(2, 52, 54);
+    border-radius: 16px;
+    border-style: solid;
+    margin: 5px;
+    color: rgb(270, 270, 270);
+    font-family: sans-serif;
+    height: 32px;
+}
+
+button:disabled {
+    background-color: rgb(177, 177, 177);
+    border-color: rgb(177, 177, 177);
+}
+
+button:not([disabled]):hover {
+    background-color: rgb(3,121,113);
+    cursor: pointer;
+}
+
+button:not([disabled]):active {
+    background-color: rgb(246,174,45);
+    cursor: pointer;
+}
+
+h1 {
+    color: rgb(2, 52, 54);
+    text-align: center;
+}
+
+</style>
     <body>
         <!-- 
             Please note that this document does not use the spectrum web components theme for Express.
             You may use "addOnUISdk.app.ui.theme" to get the current theme and style accordingly.
         -->
         <div class="container">
-            <button id="clickMe" disabled>Click me</button>
+            <h1>ReFormatter</h1>
+            <button id="clickMe">Basic</button>
+            <button id="ProButton">Professional</button>
+            <button id="BoldButton">Bold</button>
+            <button id="RevertButton">Revert</button>
         </div>
         <script type="module" src="index.js"></script>
     </body>
