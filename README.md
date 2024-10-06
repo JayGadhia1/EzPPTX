@@ -34,6 +34,8 @@ cd backend
 npm install
 ```
 
+### Starting the Product
+
 #### 4. Start Frontend
 ```bash
 npm run build
