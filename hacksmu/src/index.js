@@ -3,6 +3,7 @@ import addOnUISdk from "https://new.express.adobe.com/static/add-on-sdk/sdk.js";
 addOnUISdk.ready.then(() => {
     console.log("addOnUISdk is ready for use.");
 
+
     const exportButton = document.getElementById("Export");
 
     // Add event listener for button click
@@ -14,8 +15,9 @@ addOnUISdk.ready.then(() => {
     });
 
     // Enable the button when the SDK is ready
-    exportButton.disabled = false;
-});
+  
+
+ 
 
 function exportAdobeExpressToPptx() {
     fetch("http://localhost:3000/convert-adobe-express-to-pptx", {  // Ensure port matches backend
