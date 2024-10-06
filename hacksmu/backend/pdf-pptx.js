@@ -15,7 +15,7 @@ const {
     ServiceApiError
 } = require("@adobe/pdfservices-node-sdk");
 
-const credentialsPath = path.join(__dirname, "backend/pdfservices-api-credentials.json");
+const credentialsPath = path.join(__dirname, "pdfservices-api-credentials.json");
 const credentialsData = JSON.parse(fs.readFileSync(credentialsPath));
 
 // Initialize credentials using the JSON file
